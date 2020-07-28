@@ -40,5 +40,5 @@
 	//"remoteUser": "vscode"
 	
 	// add mounts
-	"mounts": ["type=bind,source=${env:HOME}${env:USERPROFILE}/.ssh/known_hosts,target=/root/.ssh/known_hosts"],
+	"mounts": ["type=bind,source=${env:HOME}${env:USERPROFILE}/.ssh/known_hosts,target=/root/.ssh/known_hosts"]
 }
