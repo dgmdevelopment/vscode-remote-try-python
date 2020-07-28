@@ -37,7 +37,7 @@
 	"postCreateCommand": "pip3 install -r requirements.txt",
 
 	// Comment out to connect as root instead.
-	"remoteUser": "vscode"
+	//"remoteUser": "vscode"
 	
 	// add mounts
 	"mounts": ["type=bind,source=${env:HOME}${env:USERPROFILE}/.ssh/known_hosts,target=/root/.ssh/known_hosts"],
